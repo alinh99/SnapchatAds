@@ -1,0 +1,13 @@
+curl -X POST \
+  -d "grant_type=authorization_code" \
+  -d "client_id=a8aaf469-e9d3-47db-a076-c2eab2c64ffc" \
+  -d "client_secret=425b78a022260dbd31a1" \
+  -d "code=C2eI1gaMLVMK2gpVJ2gKfRI2x-61dzRfQBWBK6nyyDc" \
+  -d "redirect_uri=https://www.paloceras.com"
+  https://accounts.snapchat.com/login/oauth2/access_token
+
+https://accounts.snapchat.com/login/oauth2/authorize
+  ?client_id=a8aaf469-e9d3-47db-a076-c2eab2c64ffc
+  &redirect_uri=https://www.paloceras.com
+  &response_type=code
+  &scope=snapchat-marketing-api
